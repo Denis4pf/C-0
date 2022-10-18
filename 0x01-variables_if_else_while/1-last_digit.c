@@ -8,6 +8,7 @@
  */
 
 int main(void)
+
 { 
 	int n;
 	int last;
@@ -17,11 +18,11 @@ int main(void)
 	last = n % 10;
 
 	if (last > 5)
-		print("Last digit of %i is %i and is greater than 5\n", n, last);
+		printf("Last digit of %i is %i and is greater than 5\n", n, last);
 	else if (last == 0)
-		print("Last digit of %i is %i and is 0\n", n, last);
+		printf("Last digit of %i is %i and is 0\n", n, last);
 	else if (last < 6)
-	        print("Last digit of %i is %i and is less than 6 and not 0\n", n, last); 	
+	        printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last); 	
 
 
 	return (0);

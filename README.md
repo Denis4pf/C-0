@@ -18,7 +18,7 @@ GCC : GNU Compiler
 Betty : C code checker
 Navigation Guide
 To access any project you are willing to view , please proceed like this:
-
+chmod
 clone the repository
 
   - git clone https://github.com/Denis4pf/alx-low_level_programming
